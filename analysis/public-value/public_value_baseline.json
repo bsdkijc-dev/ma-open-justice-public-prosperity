@@ -1,0 +1,52 @@
+[
+  {
+    "evaluation_id": "PV-P1-001",
+    "dimension": "ACCESS",
+    "logic_tier": "INPUT",
+    "metric_name": "BPHN-accredited OBH in pilot provinces (NTB 52 + Jawa Barat 32)",
+    "value": 55,
+    "observation_period": "2025",
+    "evidence_source": "P03 ds05_pilot_obh_ntb_jabar.json",
+    "causal_claim_permitted": false
+  },
+  {
+    "evaluation_id": "PV-P1-002",
+    "dimension": "ACCESS",
+    "logic_tier": "INPUT",
+    "metric_name": "Courts mapped in pilot provinces (Jawa Barat 49, NTB 14)",
+    "value": 63,
+    "observation_period": "2025",
+    "evidence_source": "P03 ds02_pilot_courts_ntb_jabar.json",
+    "causal_claim_permitted": false
+  },
+  {
+    "evaluation_id": "PV-P1-003",
+    "dimension": "UNDERSTANDING",
+    "logic_tier": "OUTPUT",
+    "metric_name": "Human-reviewed plain-language legal articles & guides (P05 approved P1 snapshot)",
+    "value": 14,
+    "observation_period": "2026",
+    "evidence_source": "p05_approved_legal_knowledge_index.json",
+    "causal_claim_permitted": false
+  },
+  {
+    "evaluation_id": "PV-P1-004",
+    "dimension": "UNDERSTANDING",
+    "logic_tier": "OUTCOME",
+    "metric_name": "Public legal comprehension feedback score",
+    "value": null,
+    "observation_period": "2026",
+    "evidence_source": "P05 dataset_10_feedback.json (0 records; not_collected)",
+    "causal_claim_permitted": false
+  },
+  {
+    "evaluation_id": "PV-P1-005",
+    "dimension": "TRUST_AND_ACCOUNTABILITY",
+    "logic_tier": "OUTPUT",
+    "metric_name": "Reconciled canonical MA-COURT-* crosswalk entries (P01, P03, P04)",
+    "value": 76,
+    "observation_period": "2026",
+    "evidence_source": "shared/taxonomies/court_institution_crosswalk.csv",
+    "causal_claim_permitted": false
+  }
+]

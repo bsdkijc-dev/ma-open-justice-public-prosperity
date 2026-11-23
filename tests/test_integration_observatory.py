@@ -104,5 +104,26 @@ class TestObservatoryIntegration(unittest.TestCase):
             self.assertEqual(obj["nbformat"], 4)
 
 
+
+    def test_policy_register_public_value_and_static_prototypes(self):
+        pol_schema = self._load_json("shared/schemas/policy_recommendation.schema.json")
+        pols = self._load_json("policy/policy-register/policy_register.json")
+        self.assertGreaterEqual(len(pols), 3)
+        for p in pols:
+            jsonschema.validate(instance=p, schema=pol_schema)
+            self.assertEqual(p["review_status"], "PENDING_HUMAN_REVIEW")
+
+        pv_schema = self._load_json("shared/schemas/public_value_evaluation.schema.json")
+        pvs = self._load_json("analysis/public-value/public_value_baseline.json")
+        self.assertGreaterEqual(len(pvs), 5)
+        for pv in pvs:
+            jsonschema.validate(instance=pv, schema=pv_schema)
+            self.assertFalse(pv["causal_claim_permitted"])
+
+        for rel in ("website/index.html", "dashboard/index.html"):
+            html = (ROOT / rel).read_text(encoding="utf-8")
+            self.assertIn("Institutional Disclaimer", html)
+
+
 if __name__ == "__main__":
     unittest.main()
