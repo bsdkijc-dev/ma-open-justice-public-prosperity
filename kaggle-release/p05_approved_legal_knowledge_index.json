@@ -1,0 +1,704 @@
+{
+  "review_metadata": {
+    "review_date": "2026-11-23",
+    "gate_authorization": "User-approved Gate 3 & Gate 6 legal/accessibility review",
+    "source_project": "P05",
+    "publication_class": "P1",
+    "excluded_flagged_provisions": [
+      {
+        "provision_id": "PRV-ID-LK03-002",
+        "source_id": "SRC-ID-2026-UU01",
+        "status": "UNVERIFIED"
+      },
+      {
+        "provision_id": "PRV-ID-LK05-001",
+        "source_id": "SRC-ID-2026-UU27",
+        "status": "UNVERIFIED"
+      },
+      {
+        "provision_id": "PRV-ID-LK11-002",
+        "source_id": "SRC-ID-2024-UU01",
+        "status": "CONFLICT_FLAGGED"
+      }
+    ]
+  },
+  "counts": {
+    "legal_sources_verified": 14,
+    "legal_provisions_approved": 11,
+    "legal_provisions_excluded_flagged": 3,
+    "knowledge_articles_approved": 10,
+    "questions_approved": 10,
+    "answers_approved": 10,
+    "procedure_guides_approved": 4,
+    "terminology_approved": 10,
+    "audio_visual_approved": 4,
+    "literacy_assessment_approved": 6,
+    "feedback_records": 0,
+    "legal_updates_approved": 4,
+    "provenance_records": 10
+  },
+  "legal_sources": [
+    {
+      "source_id": "SRC-ID-2015-PERMA02",
+      "title": "Peraturan Mahkamah Agung Nomor 2 Tahun 2015 tentang Tata Cara Penyelesaian Gugatan Sederhana",
+      "document_type": "Peraturan Mahkamah Agung",
+      "issuing_authority": "Mahkamah Agung RI",
+      "document_number": "Perma No. 2 Tahun 2015",
+      "publication_date": "2015-08-07",
+      "effective_date": "2015-08-07",
+      "legal_status": "DIUBAH",
+      "official_url": "https://peraturan.bpk.go.id/Details/209475/perma-no-2-tahun-2015",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "source_id": "SRC-ID-2019-PERMA04",
+      "title": "Peraturan Mahkamah Agung Nomor 4 Tahun 2019 tentang Perubahan atas Perma No. 2 Tahun 2015 tentang Tata Cara Penyelesaian Gugatan Sederhana",
+      "document_type": "Peraturan Mahkamah Agung",
+      "issuing_authority": "Mahkamah Agung RI",
+      "document_number": "Perma No. 4 Tahun 2019",
+      "publication_date": "2019-08-06",
+      "effective_date": "2019-08-20",
+      "legal_status": "BERLAKU",
+      "official_url": "https://peraturan.bpk.go.id/Details/206070/perma-no-4-tahun-2019",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "source_id": "SRC-ID-2023-UU01",
+      "title": "Undang-Undang Nomor 1 Tahun 2023 tentang Kitab Undang-Undang Hukum Pidana",
+      "document_type": "Undang-Undang",
+      "issuing_authority": "Presiden RI dan DPR RI",
+      "document_number": "UU No. 1 Tahun 2023",
+      "publication_date": "2023-01-02",
+      "effective_date": "2026-01-02",
+      "legal_status": "DIUBAH",
+      "official_url": "https://peraturan.bpk.go.id/Details/234935/uu-no-1-tahun-2023",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "source_id": "SRC-ID-2026-UU01",
+      "title": "Undang-Undang Nomor 1 Tahun 2026 tentang Penyesuaian Pidana",
+      "document_type": "Undang-Undang",
+      "issuing_authority": "Presiden RI dan DPR RI",
+      "document_number": "UU No. 1 Tahun 2026",
+      "publication_date": "2026-01-02",
+      "effective_date": "2026-01-02",
+      "legal_status": "BERLAKU",
+      "official_url": "https://peraturan.bpk.go.id/Details/337869/uu-no-1-tahun-2026",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "source_id": "SRC-ID-2019-UU16",
+      "title": "Undang-Undang Nomor 16 Tahun 2019 tentang Perubahan atas Undang-Undang Nomor 1 Tahun 1974 tentang Perkawinan",
+      "document_type": "Undang-Undang",
+      "issuing_authority": "Presiden RI dan DPR RI",
+      "document_number": "UU No. 16 Tahun 2019",
+      "publication_date": "2019-10-14",
+      "effective_date": "2019-10-15",
+      "legal_status": "BERLAKU",
+      "official_url": "https://peraturan.bpk.go.id/Details/122740/uu-no-16-tahun-2019",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "source_id": "SRC-ID-2026-UU27",
+      "title": "Undang-Undang Nomor 27 Tahun 2026 tentang Pelindungan Ketenagakerjaan",
+      "document_type": "Undang-Undang",
+      "issuing_authority": "Presiden RI dan DPR RI",
+      "document_number": "UU No. 27 Tahun 2026",
+      "publication_date": "2026-10-28",
+      "effective_date": "2026-10-28",
+      "legal_status": "BERLAKU",
+      "official_url": "https://peraturan.bpk.go.id/Details/359755/uu-no-27-tahun-2026-pelindungan-ketenagakerjaan",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "source_id": "SRC-ID-2021-PP07",
+      "title": "Peraturan Pemerintah Nomor 7 Tahun 2021 tentang Kemudahan, Pelindungan, dan Pemberdayaan Koperasi dan Usaha Mikro, Kecil, dan Menengah",
+      "document_type": "Peraturan Pemerintah",
+      "issuing_authority": "Presiden RI",
+      "document_number": "PP No. 7 Tahun 2021",
+      "publication_date": "2021-02-02",
+      "effective_date": "2021-02-02",
+      "legal_status": "BERLAKU",
+      "official_url": "https://peraturan.bpk.go.id/Details/161837/pp-no-7-tahun-2021",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "source_id": "SRC-ID-2021-PP18",
+      "title": "Peraturan Pemerintah Nomor 18 Tahun 2021 tentang Hak Pengelolaan, Hak Atas Tanah, Satuan Rumah Susun, dan Pendaftaran Tanah",
+      "document_type": "Peraturan Pemerintah",
+      "issuing_authority": "Presiden RI",
+      "document_number": "PP No. 18 Tahun 2021",
+      "publication_date": "2021-02-02",
+      "effective_date": "2021-02-02",
+      "legal_status": "BERLAKU",
+      "official_url": "https://peraturan.bpk.go.id/Details/161848/pp-no-18-tahun-2021",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "source_id": "SRC-ID-2009-UU25",
+      "title": "Undang-Undang Nomor 25 Tahun 2009 tentang Pelayanan Publik",
+      "document_type": "Undang-Undang",
+      "issuing_authority": "Presiden RI dan DPR RI",
+      "document_number": "UU No. 25 Tahun 2009",
+      "publication_date": "2009-07-18",
+      "effective_date": "2009-07-18",
+      "legal_status": "BERLAKU",
+      "official_url": "https://peraturan.bpk.go.id/Details/38748/uu-no-25-tahun-2009",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "source_id": "SRC-ID-1999-UU08",
+      "title": "Undang-Undang Nomor 8 Tahun 1999 tentang Perlindungan Konsumen",
+      "document_type": "Undang-Undang",
+      "issuing_authority": "Presiden RI dan DPR RI",
+      "document_number": "UU No. 8 Tahun 1999",
+      "publication_date": "1999-04-20",
+      "effective_date": "2000-04-20",
+      "legal_status": "UJI_MATERI",
+      "official_url": "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "source_id": "SRC-ID-2011-UU16",
+      "title": "Undang-Undang Nomor 16 Tahun 2011 tentang Bantuan Hukum",
+      "document_type": "Undang-Undang",
+      "issuing_authority": "Presiden RI dan DPR RI",
+      "document_number": "UU No. 16 Tahun 2011",
+      "publication_date": "2011-10-31",
+      "effective_date": "2011-11-02",
+      "legal_status": "BERLAKU",
+      "official_url": "https://peraturan.bpk.go.id/Details/39234/uu-no-16-tahun-2011",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "source_id": "SRC-ID-2022-UU27",
+      "title": "Undang-Undang Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi",
+      "document_type": "Undang-Undang",
+      "issuing_authority": "Presiden RI dan DPR RI",
+      "document_number": "UU No. 27 Tahun 2022",
+      "publication_date": "2022-10-17",
+      "effective_date": "2022-10-17",
+      "legal_status": "UJI_MATERI",
+      "official_url": "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "source_id": "SRC-ID-2024-UU01",
+      "title": "Undang-Undang Nomor 1 Tahun 2024 tentang Perubahan Kedua atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik",
+      "document_type": "Undang-Undang",
+      "issuing_authority": "Presiden RI dan DPR RI",
+      "document_number": "UU No. 1 Tahun 2024",
+      "publication_date": "2024-01-02",
+      "effective_date": "2024-01-02",
+      "legal_status": "UJI_MATERI",
+      "official_url": "https://peraturan.bpk.go.id/Details/274494/uu-no-1-tahun-2024",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "source_id": "SRC-ID-2009-UU32",
+      "title": "Undang-Undang Nomor 32 Tahun 2009 tentang Perlindungan dan Pengelolaan Lingkungan Hidup",
+      "document_type": "Undang-Undang",
+      "issuing_authority": "Presiden RI dan DPR RI",
+      "document_number": "UU No. 32 Tahun 2009",
+      "publication_date": "2009-10-03",
+      "effective_date": "2009-10-03",
+      "legal_status": "DIUBAH",
+      "official_url": "https://peraturan.bpk.go.id/Details/38771/uu-no-32-tahun-2009",
+      "verification_status": "VERIFIED"
+    }
+  ],
+  "verified_provisions": [
+    {
+      "provision_id": "PRV-ID-LK01-001",
+      "source_id": "SRC-ID-2019-PERMA04",
+      "article_number": "Pasal 3",
+      "paragraph_number": "Ayat (1)",
+      "original_text_reference": "Mengubah Perma No. 2 Tahun 2015: Gugatan sederhana diajukan terhadap perkara cidera janji dan/atau perbuatan melawan hukum dengan nilai gugatan materiil paling banyak Rp500.000.000,00 dan dapat didaftarkan secara elektronik.",
+      "legal_topic": "LK01 - Gugatan Sederhana dan e-Court",
+      "effective_period": "2019-08-20 s.d. berlaku",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "provision_id": "PRV-ID-LK03-001",
+      "source_id": "SRC-ID-2023-UU01",
+      "article_number": "Pasal 622",
+      "paragraph_number": "Ayat (1)",
+      "original_text_reference": "Mencabut beberapa ketentuan dan undang-undang pidana terdahulu sebagaimana diatur dalam Pasal 622 ayat (1); KUHP Nasional mulai berlaku setelah 3 tahun sejak diundangkan (02 Januari 2026).",
+      "legal_topic": "LK03 - Pemberlakuan KUHP Nasional 2026",
+      "effective_period": "2026-01-02 s.d. berlaku",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "provision_id": "PRV-ID-LK04-001",
+      "source_id": "SRC-ID-2019-UU16",
+      "article_number": "Pasal 7",
+      "paragraph_number": "Ayat (1)",
+      "original_text_reference": "Perkawinan hanya diizinkan apabila pria dan wanita sudah mencapai umur 19 (sembilan belas) tahun (menindaklanjuti Putusan MK No. 22/PUU-XV/2017).",
+      "legal_topic": "LK04 - Batas Usia Minimal Perkawinan",
+      "effective_period": "2019-10-15 s.d. berlaku",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "provision_id": "PRV-ID-LK06-001",
+      "source_id": "SRC-ID-2021-PP07",
+      "article_number": "Pasal 35 dan Pasal 36",
+      "paragraph_number": "Umum",
+      "original_text_reference": "Kriteria skala usaha mikro, kecil, dan menengah berdasarkan modal usaha untuk pendirian/pendaftaran serta hasil penjualan tahunan untuk pemberdayaan UMKM.",
+      "legal_topic": "LK06 - Kriteria dan Legalitas UMKM",
+      "effective_period": "2021-02-02 s.d. berlaku",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "provision_id": "PRV-ID-LK06-002",
+      "source_id": "SRC-ID-2021-PP07",
+      "article_number": "Pasal 69",
+      "paragraph_number": "Ayat (1)",
+      "original_text_reference": "Pengelolaan terpadu Usaha Mikro dan Usaha Kecil bagi kelompok usaha yang terkait dalam rantai produk umum, keterampilan tenaga kerja serupa, atau teknologi yang saling melengkapi secara terintegrasi.",
+      "legal_topic": "LK06 - Pengelolaan Terpadu UMKM",
+      "effective_period": "2021-02-02 s.d. berlaku",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "provision_id": "PRV-ID-LK07-001",
+      "source_id": "SRC-ID-2021-PP18",
+      "article_number": "Pasal 84",
+      "paragraph_number": "Ayat (1)",
+      "original_text_reference": "Penyelenggaraan dan pelaksanaan Pendaftaran Tanah dapat dilakukan secara elektronik.",
+      "legal_topic": "LK07 - Pendaftaran Tanah dan Sertipikat Elektronik",
+      "effective_period": "2021-02-02 s.d. berlaku",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "provision_id": "PRV-ID-LK08-001",
+      "source_id": "SRC-ID-2009-UU25",
+      "article_number": "Pasal 18",
+      "paragraph_number": "Umum",
+      "original_text_reference": "Masyarakat berhak mengetahui kebenaran isi standar pelayanan serta hak-hak lain dalam penyelenggaraan pelayanan publik.",
+      "legal_topic": "LK08 - Hak Masyarakat atas Standar Pelayanan Publik",
+      "effective_period": "2009-07-18 s.d. berlaku",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "provision_id": "PRV-ID-LK08-002",
+      "source_id": "SRC-ID-2009-UU25",
+      "article_number": "Pasal 39",
+      "paragraph_number": "Ayat (1)-(3)",
+      "original_text_reference": "Peran serta masyarakat dalam penyelenggaraan pelayanan publik dimulai sejak penyusunan standar pelayanan sampai dengan evaluasi, dan masyarakat dapat membentuk lembaga pengawasan pelayanan publik.",
+      "legal_topic": "LK08 - Peran Serta dan Pengawasan Pelayanan Publik",
+      "effective_period": "2009-07-18 s.d. berlaku",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "provision_id": "PRV-ID-LK09-001",
+      "source_id": "SRC-ID-1999-UU08",
+      "article_number": "Pasal 4",
+      "paragraph_number": "Huruf a-i",
+      "original_text_reference": "Hak konsumen meliputi hak atas kenyamanan, keamanan, dan keselamatan dalam mengonsumsi barang dan/atau jasa serta hak memilih, memperoleh informasi benar, didengar pendapatnya, dan mendapat advokasi/penyelesaian sengketa.",
+      "legal_topic": "LK09 - Hak Dasar Konsumen",
+      "effective_period": "2000-04-20 s.d. berlaku",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "provision_id": "PRV-ID-LK10-001",
+      "source_id": "SRC-ID-2011-UU16",
+      "article_number": "Pasal 16 dan Pasal 19",
+      "paragraph_number": "Ayat (1) dan Ayat (2)",
+      "original_text_reference": "Tata cara penyaluran dana Bantuan Hukum kepada Pemberi Bantuan Hukum (OBH) dan penyelenggaraan Bantuan Hukum oleh Pemerintah Daerah melalui Peraturan Daerah.",
+      "legal_topic": "LK10 - Penyelenggaraan dan Pendanaan Bantuan Hukum Gratis",
+      "effective_period": "2011-11-02 s.d. berlaku",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "provision_id": "PRV-ID-LK11-001",
+      "source_id": "SRC-ID-2022-UU27",
+      "article_number": "Pasal 27 dan Pasal 30",
+      "paragraph_number": "Pasal 27; Pasal 30 Ayat (1)-(2)",
+      "original_text_reference": "Pengendali Data Pribadi wajib memproses Data Pribadi secara terbatas, spesifik, sah, dan transparan (Pasal 27) serta memperbarui/memperbaiki ketidakakuratan paling lambat 3 x 24 jam sejak menerima permintaan (Pasal 30).",
+      "legal_topic": "LK11 - Kewajiban Pengendali Data Pribadi",
+      "effective_period": "2022-10-17 s.d. berlaku",
+      "verification_status": "VERIFIED"
+    }
+  ],
+  "knowledge_articles": [
+    {
+      "knowledge_id": "KNW-ID-001",
+      "title": "Cara Mengajukan Gugatan Sederhana di Pengadilan",
+      "legal_domain": "LK01",
+      "audience": [
+        "General public",
+        "Micro and small enterprises"
+      ],
+      "plain_language_summary": "Gugatan Sederhana adalah jalur pemeriksaan perkara perdata yang lebih cepat dan sederhana untuk sengketa cidera janji atau perbuatan melawan hukum dengan nilai gugatan materiil maksimal Rp500 juta sesuai Perma No. 4 Tahun 2019, dan dapat didaftarkan melalui layanan resmi e-Court Mahkamah Agung RI.",
+      "source_ids": [
+        "SRC-ID-2015-PERMA02",
+        "SRC-ID-2019-PERMA04"
+      ],
+      "review_status": "PENDING_HUMAN_REVIEW",
+      "last_verified_date": "2026-11-23"
+    },
+    {
+      "knowledge_id": "KNW-ID-002",
+      "title": "Pemberlakuan KUHP Nasional 2026 dan Penyesuaian Pidana",
+      "legal_domain": "LK03",
+      "audience": [
+        "General public",
+        "Students and educators",
+        "Community legal assistance organizations"
+      ],
+      "plain_language_summary": "Mulai 2 Januari 2026, Kitab Undang-Undang Hukum Pidana (KUHP) Nasional berdasarkan UU No. 1 Tahun 2023 resmi berlaku menggantikan ketentuan pidana lama tertentu sebagaimana diatur dalam Pasal 622 ayat (1), bersama UU No. 1 Tahun 2026 tentang Penyesuaian Pidana untuk menyelaraskan aturan pidana di luar KUHP.",
+      "source_ids": [
+        "SRC-ID-2023-UU01",
+        "SRC-ID-2026-UU01"
+      ],
+      "review_status": "PENDING_HUMAN_REVIEW",
+      "last_verified_date": "2026-11-23"
+    },
+    {
+      "knowledge_id": "KNW-ID-003",
+      "title": "Batas Usia Minimal Perkawinan (19 Tahun) dan Perlindungan Anak",
+      "legal_domain": "LK04",
+      "audience": [
+        "Women and families",
+        "Rural communities"
+      ],
+      "plain_language_summary": "Berdasarkan UU No. 16 Tahun 2019 yang mengubah Pasal 7 UU No. 1 Tahun 1974, batas usia minimal untuk melangsungkan perkawinan bagi pria dan wanita disamakan menjadi 19 tahun guna mencegah perkawinan anak dan melindungi hak tumbuh kembang anak.",
+      "source_ids": [
+        "SRC-ID-2019-UU16"
+      ],
+      "review_status": "PENDING_HUMAN_REVIEW",
+      "last_verified_date": "2026-11-23"
+    },
+    {
+      "knowledge_id": "KNW-ID-004",
+      "title": "Hak Pekerja 2026: Batas PKWT dan Larangan Penahanan Ijazah",
+      "legal_domain": "LK05",
+      "audience": [
+        "Workers and informal workers",
+        "Micro and small enterprises"
+      ],
+      "plain_language_summary": "UU No. 27 Tahun 2026 tentang Pelindungan Ketenagakerjaan (berlaku sejak 28 Oktober 2026) mencabut UU No. 13 Tahun 2003, melarang pemberi kerja menahan ijazah atau dokumen pribadi pekerja sebagai jaminan, membatasi kontrak PKWT maksimal 2 tahun (dapat diperpanjang maksimal 2 kali masing-masing 1 tahun), serta mengatur jaminan sosial bagi pekerja sektor informal.",
+      "source_ids": [
+        "SRC-ID-2026-UU27"
+      ],
+      "review_status": "PENDING_HUMAN_REVIEW",
+      "last_verified_date": "2026-11-23"
+    },
+    {
+      "knowledge_id": "KNW-ID-005",
+      "title": "Kriteria UMKM dan Kemudahan Pengelolaan Terpadu",
+      "legal_domain": "LK06",
+      "audience": [
+        "Micro and small enterprises"
+      ],
+      "plain_language_summary": "PP No. 7 Tahun 2021 (Pasal 35 dan Pasal 36) menetapkan kriteria skala usaha mikro, kecil, dan menengah berdasarkan modal usaha atau penjualan tahunan, serta mengatur kemudahan pengelolaan terpadu bagi kelompok usaha mikro dan kecil (Pasal 69) dan penyediaan tempat promosi pada infrastruktur publik.",
+      "source_ids": [
+        "SRC-ID-2021-PP07"
+      ],
+      "review_status": "PENDING_HUMAN_REVIEW",
+      "last_verified_date": "2026-11-23"
+    },
+    {
+      "knowledge_id": "KNW-ID-006",
+      "title": "Pendaftaran Tanah Secara Elektronik dan Sertipikat Elektronik",
+      "legal_domain": "LK07",
+      "audience": [
+        "Rural communities",
+        "General public"
+      ],
+      "plain_language_summary": "Sesuai Pasal 84 PP No. 18 Tahun 2021, penyelenggaraan pendaftaran tanah dapat dilakukan secara elektronik sehingga hasil pendaftaran hak atas tanah dapat diterbitkan dalam bentuk dokumen/sertipikat elektronik yang sah.",
+      "source_ids": [
+        "SRC-ID-2021-PP18"
+      ],
+      "review_status": "PENDING_HUMAN_REVIEW",
+      "last_verified_date": "2026-11-23"
+    },
+    {
+      "knowledge_id": "KNW-ID-007",
+      "title": "Hak Warga atas Standar Pelayanan Publik dan Pengaduan",
+      "legal_domain": "LK08",
+      "audience": [
+        "General public",
+        "Village-level public service providers"
+      ],
+      "plain_language_summary": "UU No. 25 Tahun 2009 menjamin hak masyarakat untuk mengetahui kebenaran isi standar pelayanan publik (Pasal 18) serta berperan aktif sejak penyusunan standar hingga evaluasi dan pengawasan pelayanan (Pasal 39).",
+      "source_ids": [
+        "SRC-ID-2009-UU25"
+      ],
+      "review_status": "PENDING_HUMAN_REVIEW",
+      "last_verified_date": "2026-11-23"
+    },
+    {
+      "knowledge_id": "KNW-ID-008",
+      "title": "Hak Dasar Konsumen dalam Transaksi Barang dan Jasa",
+      "legal_domain": "LK09",
+      "audience": [
+        "General public",
+        "Micro and small enterprises"
+      ],
+      "plain_language_summary": "Pasal 4 UU No. 8 Tahun 1999 melindungi hak konsumen atas kenyamanan, keamanan, dan keselamatan, hak memilih barang/jasa, hak memperoleh informasi yang benar dan jujur, serta hak atas advokasi dan penyelesaian sengketa konsumen.",
+      "source_ids": [
+        "SRC-ID-1999-UU08"
+      ],
+      "review_status": "PENDING_HUMAN_REVIEW",
+      "last_verified_date": "2026-11-23"
+    },
+    {
+      "knowledge_id": "KNW-ID-009",
+      "title": "Bantuan Hukum Gratis bagi Warga Tidak Mampu",
+      "legal_domain": "LK10",
+      "audience": [
+        "Rural communities",
+        "Workers and informal workers",
+        "Persons with disabilities",
+        "Community legal assistance organizations"
+      ],
+      "plain_language_summary": "UU No. 16 Tahun 2011 menjamin layanan bantuan hukum gratis (litigasi dan nonlitigasi) bagi orang atau kelompok orang miskin melalui Organisasi Bantuan Hukum (OBH) yang terakreditasi oleh BPHN/Kementerian Hukum.",
+      "source_ids": [
+        "SRC-ID-2011-UU16"
+      ],
+      "review_status": "PENDING_HUMAN_REVIEW",
+      "last_verified_date": "2026-11-23"
+    },
+    {
+      "knowledge_id": "KNW-ID-010",
+      "title": "Hak Subjek Data Pribadi dan Etika Informasi Elektronik",
+      "legal_domain": "LK11",
+      "audience": [
+        "General public",
+        "Students and educators",
+        "Micro and small enterprises"
+      ],
+      "plain_language_summary": "UU No. 27 Tahun 2022 mewajibkan pengendali data memproses data pribadi secara terbatas, sah, dan transparan (Pasal 27) serta memperbaiki kesalahan data maksimal 3x24 jam (Pasal 30). Sementara itu, ketentuan pencemaran nama baik dalam UU No. 1 Tahun 2024 (Pasal 27A) tunduk pada pemaknaan bersyarat Putusan MKRI No. 105/PUU-XXII/2024.",
+      "source_ids": [
+        "SRC-ID-2022-UU27",
+        "SRC-ID-2024-UU01"
+      ],
+      "review_status": "PENDING_HUMAN_REVIEW",
+      "last_verified_date": "2026-11-23"
+    }
+  ],
+  "procedure_guides": [
+    {
+      "guide_id": "GDE-ID-001",
+      "procedure_name": "Pendaftaran Gugatan Sederhana (Small Claims) via e-Court [DRAFT - REQUIRES HUMAN REVIEW]",
+      "jurisdiction": "Pengadilan Negeri (Nasional)",
+      "eligibility": "Pihak dalam sengketa perdata cidera janji atau perbuatan melawan hukum dengan nilai gugatan materiil maksimal Rp500.000.000,00 (Perma No. 4 Tahun 2019).",
+      "required_documents": [
+        "Identitas penggugat (KTP)",
+        "Surat gugatan sederhana dan bukti tertulis",
+        "Identitas/alamat tergugat (dan surat kuasa insidentil jika diperlukan sesuai Perma No. 4 Tahun 2019)"
+      ],
+      "process_steps": [
+        "Periksa kesesuaian syarat sengketa dan batas nilai gugatan maksimal Rp500 juta sesuai Perma No. 4 Tahun 2019.",
+        "Siapkan surat gugatan dan bukti pendukung.",
+        "Daftarkan akun dan perkara melalui portal resmi e-Court Mahkamah Agung RI atau loket PTSP Pengadilan Negeri setempat.",
+        "Ikuti panggilan sidang dan proses pemeriksaan sederhana hingga putusan."
+      ],
+      "official_fee_reference": "Mengikuti SK Panjar Biaya Perkara masing-masing Pengadilan Negeri (tidak ditetapkan seragam dalam panduan ini).",
+      "official_service_url": "https://ecourt.mahkamahagung.go.id/",
+      "verification_date": "2026-11-23"
+    },
+    {
+      "guide_id": "GDE-ID-002",
+      "procedure_name": "Permohonan Bantuan Hukum Gratis (OBH BPHN) [DRAFT - REQUIRES HUMAN REVIEW]",
+      "jurisdiction": "Nasional & Pemerintah Daerah",
+      "eligibility": "Orang atau sekelompok orang miskin yang tidak dapat memenuhi hak dasar secara layak dan mandiri (UU No. 16 Tahun 2011).",
+      "required_documents": [
+        "Kartu Tanda Penduduk (KTP) atau identitas diri",
+        "Surat Keterangan Tidak Mampu (SKTM) atau dokumen kepesertaan program jaminan sosial pemerintah sesuai ketentuan setempat",
+        "Dokumen terkait perkara hukum yang dihadapi"
+      ],
+      "process_steps": [
+        "Cek daftar Organisasi Bantuan Hukum (OBH) terakreditasi periode 2025-2027 di portal resmi BPHN.",
+        "Siapkan identitas diri dan bukti kondisi tidak mampu.",
+        "Ajukan permohonan bantuan hukum secara tertulis/lisan kepada OBH terakreditasi terdekat.",
+        "Tunggu verifikasi kelayakan oleh OBH tanpa dipungut biaya apa pun."
+      ],
+      "official_fee_reference": "Gratis (didanai negara melalui APBN/APBD; pemberi bantuan hukum dilarang memungut biaya dari penerima).",
+      "official_service_url": "https://bphn.go.id/layanan/bantuan-hukum",
+      "verification_date": "2026-11-23"
+    },
+    {
+      "guide_id": "GDE-ID-003",
+      "procedure_name": "Pendaftaran Tanah Secara Elektronik (Orientasi Awal) [DRAFT - REQUIRES HUMAN REVIEW]",
+      "jurisdiction": "Kantor Pertanahan (ATR/BPN)",
+      "eligibility": "Pemegang hak atas tanah atau pihak yang mengajukan pendaftaran/pemeliharaan data pertanahan sesuai PP No. 18 Tahun 2021.",
+      "required_documents": [
+        "Identitas pemohon",
+        "Dokumen alas hak atau bukti kepemilikan/penguasaan tanah",
+        "Data fisik dan yuridis bidang tanah untuk verifikasi Kantor Pertanahan"
+      ],
+      "process_steps": [
+        "Konsultasikan kesiapan layanan elektronik di Kantor Pertanahan kabupaten/kota setempat.",
+        "Siapkan berkas data fisik dan data yuridis kepemilikan tanah.",
+        "Lakukan pemeriksaan data fisik (pengukuran/batas) dan penelitian data yuridis sesuai ketentuan PP No. 18 Tahun 2021.",
+        "Terima dokumen/sertipikat elektronik yang dilengkapi tanda tangan elektronik."
+      ],
+      "official_fee_reference": "Mengikuti tarif PNBP resmi layanan pertanahan pada Kementerian ATR/BPN.",
+      "official_service_url": "https://peraturan.bpk.go.id/Details/161848/pp-no-18-tahun-2021",
+      "verification_date": "2026-11-23"
+    },
+    {
+      "guide_id": "GDE-ID-004",
+      "procedure_name": "Penyampaian Pengaduan Pelayanan Publik [DRAFT - REQUIRES HUMAN REVIEW]",
+      "jurisdiction": "Penyelenggara Pelayanan Publik (Pusat & Daerah)",
+      "eligibility": "Setiap warga negara atau penduduk penerima layanan publik (UU No. 25 Tahun 2009).",
+      "required_documents": [
+        "Identitas pengadu",
+        "Uraian kronologi ketidaksesuaian layanan terhadap standar pelayanan publik",
+        "Bukti pendukung layanan (tanda terima, nomor antrean, atau tangkapan layar)"
+      ],
+      "process_steps": [
+        "Periksa standar pelayanan yang wajib diumumkan oleh instansi penyelenggara (Pasal 18 UU No. 25 Tahun 2009).",
+        "Sampaikan pengaduan pertama kali melalui kanal pengaduan resmi instansi penyelenggara tersebut.",
+        "Jika tidak ditindaklanjuti sesuai ketentuan, eskalasikan pengaduan ke lembaga pengawas eksternal seperti Ombudsman RI."
+      ],
+      "official_fee_reference": "Gratis (layanan pengaduan publik tidak dipungut biaya).",
+      "official_service_url": "https://peraturan.bpk.go.id/Details/38748/uu-no-25-tahun-2009",
+      "verification_date": "2026-11-23"
+    }
+  ],
+  "terminology": [
+    {
+      "term_id": "TRM-ID-001",
+      "legal_term": "Gugatan Sederhana",
+      "plain_language_definition": "Proses pengadilan perdata yang dibuat lebih cepat dan mudah untuk sengketa bernilai maksimal Rp500 juta dengan pembuktian yang tidak rumit.",
+      "example": "Contoh Hipotetis: Pemilik toko menagih pembayaran barang Rp25 juta yang belum dilunasi pembeli berdasarkan kuitansi perjanjian.",
+      "domain": "LK01",
+      "source_reference": "SRC-ID-2019-PERMA04",
+      "review_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "term_id": "TRM-ID-002",
+      "legal_term": "Verstek",
+      "plain_language_definition": "Putusan hakim yang dijatuhkan tanpa kehadiran pihak tergugat setelah dipanggil secara sah dan patut.",
+      "example": "Contoh Hipotetis: Tergugat tidak hadir pada sidang pertama dan kedua tanpa alasan sah, sehingga hakim memutus perkara secara verstek.",
+      "domain": "LK01",
+      "source_reference": "SRC-ID-2019-PERMA04",
+      "review_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "term_id": "TRM-ID-003",
+      "legal_term": "Ketentuan Peralihan",
+      "plain_language_definition": "Aturan sementara dalam undang-undang baru untuk menjembatani kasus atau peraturan lama agar tidak terjadi kekosongan hukum.",
+      "example": "Contoh Hipotetis: Masa transisi 3 tahun sebelum KUHP Nasional berlaku penuh pada 2 Januari 2026.",
+      "domain": "LK03",
+      "source_reference": "SRC-ID-2023-UU01",
+      "review_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "term_id": "TRM-ID-004",
+      "legal_term": "PKWT (Perjanjian Kerja Waktu Tertentu)",
+      "plain_language_definition": "Kontrak kerja antara pekerja dan pemberi kerja untuk jangka waktu atau pekerjaan tertentu yang bersifat sementara.",
+      "example": "Contoh Hipotetis: Seorang teknisi dikontrak proyek selama 1 tahun berdasarkan perjanjian tertulis.",
+      "domain": "LK05",
+      "source_reference": "SRC-ID-2026-UU27",
+      "review_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "term_id": "TRM-ID-005",
+      "legal_term": "NIB (Nomor Induk Berusaha)",
+      "plain_language_definition": "Identitas resmi pelaku usaha yang diterbitkan pemerintah sebagai tanda legalitas usaha untuk mengakses perizinan dan program pemerintah.",
+      "example": "Contoh Hipotetis: Ibu Ani mendaftarkan usaha warung makan miliknya agar memiliki NIB untuk mengajukan pembiayaan mikro.",
+      "domain": "LK06",
+      "source_reference": "SRC-ID-2021-PP07",
+      "review_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "term_id": "TRM-ID-006",
+      "legal_term": "Sertipikat Elektronik",
+      "plain_language_definition": "Bukti hak atas tanah yang diterbitkan oleh Badan Pertanahan Nasional dalam bentuk dokumen digital bertanda tangan elektronik.",
+      "example": "Contoh Hipotetis: Pemilik tanah menerima dokumen elektronik resmi dengan kode verifikasi sebagai bukti kepemilikan yang sah.",
+      "domain": "LK07",
+      "source_reference": "SRC-ID-2021-PP18",
+      "review_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "term_id": "TRM-ID-007",
+      "legal_term": "Standar Pelayanan Publik",
+      "plain_language_definition": "Tolok ukur resmi yang wajib diumumkan instansi pemerintah tentang syarat, waktu, dan biaya suatu layanan bagi masyarakat.",
+      "example": "Contoh Hipotetis: Papan informasi di kantor kecamatan yang mencantumkan waktu penyelesaian surat keterangan dan tarif resmi.",
+      "domain": "LK08",
+      "source_reference": "SRC-ID-2009-UU25",
+      "review_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "term_id": "TRM-ID-008",
+      "legal_term": "BPSK (Badan Penyelesaian Sengketa Konsumen)",
+      "plain_language_definition": "Lembaga di luar pengadilan yang bertugas membantu menyelesaikan sengketa antara konsumen dan pelaku usaha melalui mediasi, konsiliasi, atau arbitrase.",
+      "example": "Contoh Hipotetis: Pembeli mengajukan aduan ke BPSK karena barang elektronik baru rusak dan penjual menolak garansi resmi.",
+      "domain": "LK09",
+      "source_reference": "SRC-ID-1999-UU08",
+      "review_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "term_id": "TRM-ID-009",
+      "legal_term": "OBH (Organisasi Bantuan Hukum)",
+      "plain_language_definition": "Lembaga atau organisasi kemasyarakatan yang telah lulus akreditasi negara untuk memberikan bantuan hukum gratis bagi warga tidak mampu.",
+      "example": "Contoh Hipotetis: Warga kurang mampu mendatangi OBH terakreditasi BPHN untuk mendapatkan pendampingan perkara perdata.",
+      "domain": "LK10",
+      "source_reference": "SRC-ID-2011-UU16",
+      "review_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "term_id": "TRM-ID-010",
+      "legal_term": "Subjek Data Pribadi",
+      "plain_language_definition": "Orang perseorangan yang data pribadinya (seperti nama, NIK, atau data kesehatan) dikumpulkan atau diproses oleh suatu pihak.",
+      "example": "Contoh Hipotetis: Pengguna aplikasi pinjaman daring yang berhak meminta perbaikan apabila data namanya tercatat keliru.",
+      "domain": "LK11",
+      "source_reference": "SRC-ID-2022-UU27",
+      "review_status": "PENDING_HUMAN_REVIEW"
+    }
+  ],
+  "audio_visual_scripts": [
+    {
+      "content_id": "AVC-ID-001",
+      "format": "AUDIO_SCRIPT",
+      "title": "Naskah Audio 60 Detik: Bantuan Hukum Gratis bagi Warga Tidak Mampu",
+      "script": "Halo warga. Tahukah Anda bahwa warga tidak mampu berhak mendapatkan pendampingan pengacara secara gratis? Berdasarkan Undang-Undang Nomor 16 Tahun 2011 tentang Bantuan Hukum, negara menanggung biaya bantuan hukum melalui Organisasi Bantuan Hukum atau OBH yang terakreditasi oleh BPHN. Layanan ini mencakup pendampingan di pengadilan maupun konsultasi di luar pengadilan. Syaratnya, siapkan KTP dan surat keterangan tidak mampu atau kartu program kesejahteraan sosial yang berlaku di daerah Anda. Informasi daftar OBH resmi tersedia di bphn.go.id. Catatan: informasi ini bersifat edukasi umum dan masih menunggu peninjauan ahli hukum.",
+      "source_references": [
+        "SRC-ID-2011-UU16"
+      ],
+      "target_audience": "Persons with disabilities",
+      "accessibility_status": "PENDING_ACCESSIBILITY_REVIEW",
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "content_id": "AVC-ID-002",
+      "format": "AUDIO_SCRIPT",
+      "title": "Naskah Audio 60 Detik: Mengenal Gugatan Sederhana untuk Usaha Kecil",
+      "script": "Untuk pelaku usaha mikro dan kecil yang menghadapi sengketa utang piutang atau perjanjian bernilai hingga lima ratus juta rupiah, ada jalur Gugatan Sederhana di Pengadilan Negeri. Aturan ini tercantum dalam Peraturan Mahkamah Agung Nomor 4 Tahun 2019. Prosesnya dirancang lebih cepat dan pembuktiannya lebih sederhana dibandingkan gugatan biasa. Pendaftaran perkara juga dapat dilakukan secara daring melalui layanan resmi e-Court Mahkamah Agung. Pastikan Anda memeriksa syarat batas nilai dan pengecualian sengketa sebelum mendaftar. Informasi ini masih berstatus draf menunggu tinjauan hukum manusia.",
+      "source_references": [
+        "SRC-ID-2015-PERMA02",
+        "SRC-ID-2019-PERMA04"
+      ],
+      "target_audience": "Micro and small enterprises",
+      "accessibility_status": "PENDING_ACCESSIBILITY_REVIEW",
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "content_id": "AVC-ID-003",
+      "format": "LOW_BANDWIDTH_TEXT",
+      "title": "Ringkasan Teks Ringan: Hak Pekerja dan Larangan Penahanan Ijazah (2026)",
+      "script": "RINGKASAN HAK PEKERJA (UU NO. 27 TAHUN 2026 - BERLAKU 28 OKTOBER 2026): 1) Pemberi kerja dilarang mensyaratkan atau menahan ijazah maupun dokumen pribadi pekerja sebagai jaminan kerja. 2) Kontrak PKWT maksimal 2 tahun dan dapat diperpanjang maksimal 2 kali masing-masing 1 tahun. 3) Pekerja sektor informal mendapat pengaturan pelindungan jaminan sosial. STATUS: Draf menunggu verifikasi nomor pasal lengkap oleh peninjau hukum manusia.",
+      "source_references": [
+        "SRC-ID-2026-UU27"
+      ],
+      "target_audience": "Workers and informal workers",
+      "accessibility_status": "PENDING_ACCESSIBILITY_REVIEW",
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "content_id": "AVC-ID-004",
+      "format": "PRINTABLE_GUIDE",
+      "title": "Panduan Cetak Desa: Hak Warga atas Standar Pelayanan Publik",
+      "script": "PANDUAN CETAK PELAYANAN PUBLIK (UU NO. 25 TAHUN 2009): Setiap warga berhak mengetahui syarat, waktu, dan biaya resmi pelayanan di kantor pemerintah (Pasal 18). Warga juga berhak ikut mengawasi dan menyampaikan pengaduan jika pelayanan tidak sesuai standar (Pasal 39). Simpan tanda terima layanan sebagai bukti jika perlu melapor ke kanal pengaduan instansi atau Ombudsman RI. STATUS: Menunggu tinjauan hukum manusia.",
+      "source_references": [
+        "SRC-ID-2009-UU25"
+      ],
+      "target_audience": "Rural communities",
+      "accessibility_status": "PENDING_ACCESSIBILITY_REVIEW",
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    }
+  ]
+}

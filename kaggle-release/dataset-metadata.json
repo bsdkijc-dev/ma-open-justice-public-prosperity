@@ -1,0 +1,17 @@
+{
+  "title": "MA Open Justice Integration Observatory P1",
+  "id": "judicialcollege/ma-open-justice-integration-observatory-p1",
+  "licenses": [
+    {
+      "name": "MIT"
+    }
+  ],
+  "subtitle": "Cross-project P1 metadata, crosswalks & legal index",
+  "keywords": [
+    "law",
+    "government",
+    "indonesia",
+    "open-justice",
+    "public-policy"
+  ]
+}
