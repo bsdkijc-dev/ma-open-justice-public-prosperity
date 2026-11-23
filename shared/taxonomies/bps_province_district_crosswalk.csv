@@ -1,0 +1,35 @@
+bps_province_code,canonical_province_name,in_master_court_registry,in_p02_ds05,in_p03_pilot,source_reference
+11,Aceh,YES,YES,NO,master_court_registry.csv + P02 DS05 + P03 P1
+12,Sumatera Utara,YES,YES,NO,master_court_registry.csv + P02 DS05 + P03 P1
+13,Sumatera Barat,YES,YES,NO,master_court_registry.csv + P02 DS05 + P03 P1
+14,Riau,YES,YES,NO,master_court_registry.csv + P02 DS05 + P03 P1
+15,Jambi,YES,YES,NO,master_court_registry.csv + P02 DS05 + P03 P1
+16,Sumatera Selatan,YES,YES,NO,master_court_registry.csv + P02 DS05 + P03 P1
+17,Bengkulu,YES,YES,NO,master_court_registry.csv + P02 DS05 + P03 P1
+18,Lampung,YES,YES,NO,master_court_registry.csv + P02 DS05 + P03 P1
+19,Kepulauan Bangka Belitung,YES,YES,NO,master_court_registry.csv + P02 DS05 + P03 P1
+21,Kepulauan Riau,YES,YES,NO,master_court_registry.csv + P02 DS05 + P03 P1
+31,DKI Jakarta,YES,YES,NO,master_court_registry.csv + P02 DS05 + P03 P1
+32,Jawa Barat,YES,YES,YES,master_court_registry.csv + P02 DS05 + P03 P1
+33,Jawa Tengah,YES,YES,NO,master_court_registry.csv + P02 DS05 + P03 P1
+34,DI Yogyakarta,YES,YES,NO,master_court_registry.csv + P02 DS05 + P03 P1
+35,Jawa Timur,YES,YES,NO,master_court_registry.csv + P02 DS05 + P03 P1
+36,Banten,YES,YES,NO,master_court_registry.csv + P02 DS05 + P03 P1
+51,Bali,YES,YES,NO,master_court_registry.csv + P02 DS05 + P03 P1
+52,Nusa Tenggara Barat,YES,YES,YES,master_court_registry.csv + P02 DS05 + P03 P1
+53,Nusa Tenggara Timur,YES,YES,NO,master_court_registry.csv + P02 DS05 + P03 P1
+61,Kalimantan Barat,YES,YES,NO,master_court_registry.csv + P02 DS05 + P03 P1
+62,Kalimantan Tengah,YES,YES,NO,master_court_registry.csv + P02 DS05 + P03 P1
+63,Kalimantan Selatan,YES,YES,NO,master_court_registry.csv + P02 DS05 + P03 P1
+64,Kalimantan Timur,YES,YES,NO,master_court_registry.csv + P02 DS05 + P03 P1
+65,Kalimantan Utara,YES,YES,NO,master_court_registry.csv + P02 DS05 + P03 P1
+71,Sulawesi Utara,YES,YES,NO,master_court_registry.csv + P02 DS05 + P03 P1
+72,Sulawesi Tengah,YES,YES,NO,master_court_registry.csv + P02 DS05 + P03 P1
+73,Sulawesi Selatan,YES,YES,NO,master_court_registry.csv + P02 DS05 + P03 P1
+74,Sulawesi Tenggara,YES,YES,NO,master_court_registry.csv + P02 DS05 + P03 P1
+75,Gorontalo,YES,YES,NO,master_court_registry.csv + P02 DS05 + P03 P1
+76,Sulawesi Barat,YES,YES,NO,master_court_registry.csv + P02 DS05 + P03 P1
+81,Maluku,YES,YES,NO,master_court_registry.csv + P02 DS05 + P03 P1
+82,Maluku Utara,YES,YES,NO,master_court_registry.csv + P02 DS05 + P03 P1
+91,Papua,YES,YES,NO,master_court_registry.csv + P02 DS05 + P03 P1
+92,Papua Barat,YES,YES,NO,master_court_registry.csv + P02 DS05 + P03 P1

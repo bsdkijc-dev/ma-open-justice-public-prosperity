@@ -1,0 +1,77 @@
+canonical_institution_id,mcr_court_id,official_name_verified,bps_province_code,source_project,local_institution_id,local_court_name,data_origin,match_status
+UNMAPPED,,,,P01,INST-MA-000,Mahkamah Agung Republik Indonesia,processed_p1,NEEDS_MANUAL_REVIEW
+MA-COURT-MCR-PU-PN-0118,MCR-PU-PN-0118,Pengadilan Negeri Jakarta Selatan,31,P01,INST-PN-JKT-SEL,Pengadilan Negeri Jakarta Selatan,processed_p1,MATCHED_MCR
+MA-COURT-MCR-PA-PA-0001,MCR-PA-PA-0001,Pengadilan Agama Bandung,32,P01,INST-PA-BDG,Pengadilan Agama Bandung,processed_p1,MATCHED_MCR
+MA-COURT-MCR-TUN-PTUN-0013,MCR-TUN-PTUN-0013,Pengadilan Tata Usaha Negara Makassar,73,P01,INST-PTUN-MKS,Pengadilan Tata Usaha Negara Makassar,processed_p1,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0360,MCR-PU-PN-0360,Pengadilan Negeri Jayapura,91,P01,INST-PN-JPR,Pengadilan Negeri Jayapura,processed_p1,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0181,MCR-PU-PN-0181,Pengadilan Negeri Mataram,52,P03,JRC-CRT-52-001,PN Mataram,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0182,MCR-PU-PN-0182,Pengadilan Negeri Selong,52,P03,JRC-CRT-52-002,PN Selong,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0186,MCR-PU-PN-0186,Pengadilan Negeri Praya,52,P03,JRC-CRT-52-003,PN Praya,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0183,MCR-PU-PN-0183,Pengadilan Negeri Sumbawa Besar,52,P03,JRC-CRT-52-004,PN Sumbawa Besar,empirical_p1,MATCHED_MCR
+UNMAPPED,,,,P03,JRC-CRT-52-005,PN Raba Bima,empirical_p1,NEEDS_MANUAL_REVIEW
+MA-COURT-MCR-PU-PN-0185,MCR-PU-PN-0185,Pengadilan Negeri Dompu,52,P03,JRC-CRT-52-006,PN Dompu,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PA-PA-0269,MCR-PA-PA-0269,Pengadilan Agama Mataram,52,P03,JRC-CRT-52-007,PA Mataram,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PA-PA-0275,MCR-PA-PA-0275,Pengadilan Agama Giri Menang,52,P03,JRC-CRT-52-008,PA Giri Menang,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PA-PA-0271,MCR-PA-PA-0271,Pengadilan Agama Praya,52,P03,JRC-CRT-52-009,PA Praya,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PA-PA-0272,MCR-PA-PA-0272,Pengadilan Agama Selong,52,P03,JRC-CRT-52-010,PA Selong,empirical_p1,MATCHED_MCR
+UNMAPPED,,,,P03,JRC-CRT-52-011,PA Sumbawa Besar,empirical_p1,NEEDS_MANUAL_REVIEW
+MA-COURT-MCR-PA-PA-0276,MCR-PA-PA-0276,Pengadilan Agama Taliwang,52,P03,JRC-CRT-52-012,PA Taliwang,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PA-PA-0274,MCR-PA-PA-0274,Pengadilan Agama Dompu,52,P03,JRC-CRT-52-013,PA Dompu,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PA-PA-0273,MCR-PA-PA-0273,Pengadilan Agama Bima,52,P03,JRC-CRT-52-014,PA Bima,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0049,MCR-PU-PN-0049,Pengadilan Negeri Bandung,32,P03,JRC-CRT-32-015,PN Bandung,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0067,MCR-PU-PN-0067,Pengadilan Negeri Bale Bandung,32,P03,JRC-CRT-32-016,PN Bale Bandung,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0055,MCR-PU-PN-0055,Pengadilan Negeri Bekasi,32,P03,JRC-CRT-32-017,PN Bekasi,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0058,MCR-PU-PN-0058,Pengadilan Negeri Bogor,32,P03,JRC-CRT-32-018,PN Bogor,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0053,MCR-PU-PN-0053,Pengadilan Negeri Ciamis,32,P03,JRC-CRT-32-019,PN Ciamis,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0060,MCR-PU-PN-0060,Pengadilan Negeri Cianjur,32,P03,JRC-CRT-32-020,PN Cianjur,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0069,MCR-PU-PN-0069,Pengadilan Negeri Cibinong,32,P03,JRC-CRT-32-021,PN Cibinong,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0065,MCR-PU-PN-0065,Pengadilan Negeri Cibadak,32,P03,JRC-CRT-32-022,PN Cibadak,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0071,MCR-PU-PN-0071,Pengadilan Negeri Cikarang,32,P03,JRC-CRT-32-023,PN Cikarang,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0061,MCR-PU-PN-0061,Pengadilan Negeri Cirebon,32,P03,JRC-CRT-32-024,PN Cirebon,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0066,MCR-PU-PN-0066,Pengadilan Negeri Sumber,32,P03,JRC-CRT-32-025,PN Sumber,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0068,MCR-PU-PN-0068,Pengadilan Negeri Depok,32,P03,JRC-CRT-32-026,PN Depok,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0052,MCR-PU-PN-0052,Pengadilan Negeri Garut,32,P03,JRC-CRT-32-027,PN Garut,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0062,MCR-PU-PN-0062,Pengadilan Negeri Indramayu,32,P03,JRC-CRT-32-028,PN Indramayu,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0056,MCR-PU-PN-0056,Pengadilan Negeri Karawang,32,P03,JRC-CRT-32-029,PN Karawang,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0064,MCR-PU-PN-0064,Pengadilan Negeri Kuningan,32,P03,JRC-CRT-32-030,PN Kuningan,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0063,MCR-PU-PN-0063,Pengadilan Negeri Majalengka,32,P03,JRC-CRT-32-031,PN Majalengka,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0054,MCR-PU-PN-0054,Pengadilan Negeri Purwakarta,32,P03,JRC-CRT-32-032,PN Purwakarta,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0057,MCR-PU-PN-0057,Pengadilan Negeri Subang,32,P03,JRC-CRT-32-033,PN Subang,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0059,MCR-PU-PN-0059,Pengadilan Negeri Sukabumi,32,P03,JRC-CRT-32-034,PN Sukabumi,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0050,MCR-PU-PN-0050,Pengadilan Negeri Sumedang,32,P03,JRC-CRT-32-035,PN Sumedang,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0051,MCR-PU-PN-0051,Pengadilan Negeri Tasikmalaya,32,P03,JRC-CRT-32-036,PN Tasikmalaya,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0070,MCR-PU-PN-0070,Pengadilan Negeri Banjar,32,P03,JRC-CRT-32-037,PN Banjar,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PA-PA-0007,MCR-PA-PA-0007,Pengadilan Agama Bogor,32,P03,JRC-CRT-32-038,PA Bogor,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PA-PA-0020,MCR-PA-PA-0020,Pengadilan Agama Cibinong,32,P03,JRC-CRT-32-039,PA Cibinong,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PA-PA-0022,MCR-PA-PA-0022,Pengadilan Agama Depok,32,P03,JRC-CRT-32-040,PA Depok,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PA-PA-0018,MCR-PA-PA-0018,Pengadilan Agama Cibadak,32,P03,JRC-CRT-32-041,PA Cibadak,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PA-PA-0008,MCR-PA-PA-0008,Pengadilan Agama Sukabumi,32,P03,JRC-CRT-32-042,PA Sukabumi,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PA-PA-0015,MCR-PA-PA-0015,Pengadilan Agama Karawang,32,P03,JRC-CRT-32-043,PA Karawang,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PA-PA-0017,MCR-PA-PA-0017,Pengadilan Agama Subang,32,P03,JRC-CRT-32-044,PA Subang,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PA-PA-0014,MCR-PA-PA-0014,Pengadilan Agama Bekasi,32,P03,JRC-CRT-32-045,PA Bekasi,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PA-PA-0021,MCR-PA-PA-0021,Pengadilan Agama Cikarang,32,P03,JRC-CRT-32-046,PA Cikarang,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PA-PA-0016,MCR-PA-PA-0016,Pengadilan Agama Purwakarta,32,P03,JRC-CRT-32-047,PA Purwakarta,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PA-PA-0010,MCR-PA-PA-0010,Pengadilan Agama Cirebon,32,P03,JRC-CRT-32-048,PA Cirebon,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PA-PA-0011,MCR-PA-PA-0011,Pengadilan Agama Indramayu,32,P03,JRC-CRT-32-049,PA Indramayu,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PA-PA-0019,MCR-PA-PA-0019,Pengadilan Agama Sumber,32,P03,JRC-CRT-32-050,PA Sumber,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PA-PA-0012,MCR-PA-PA-0012,Pengadilan Agama Majalengka,32,P03,JRC-CRT-32-051,PA Majalengka,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PA-PA-0013,MCR-PA-PA-0013,Pengadilan Agama Kuningan,32,P03,JRC-CRT-32-052,PA Kuningan,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PA-PA-0001,MCR-PA-PA-0001,Pengadilan Agama Bandung,32,P03,JRC-CRT-32-053,PA Bandung,empirical_p1,MATCHED_MCR
+UNMAPPED,,,,P03,JRC-CRT-32-054,PA Cimahi,empirical_p1,NEEDS_MANUAL_REVIEW
+MA-COURT-MCR-PA-PA-0002,MCR-PA-PA-0002,Pengadilan Agama Sumedang,32,P03,JRC-CRT-32-055,PA Sumedang,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PA-PA-0009,MCR-PA-PA-0009,Pengadilan Agama Cianjur,32,P03,JRC-CRT-32-056,PA Cianjur,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PA-PA-0025,MCR-PA-PA-0025,Pengadilan Agama Soreang,32,P03,JRC-CRT-32-057,PA Soreang,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PA-PA-0026,MCR-PA-PA-0026,Pengadilan Agama Ngamprah,32,P03,JRC-CRT-32-058,PA Ngamprah,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PA-PA-0004,MCR-PA-PA-0004,Pengadilan Agama Ciamis,32,P03,JRC-CRT-32-059,PA Ciamis,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PA-PA-0005,MCR-PA-PA-0005,Pengadilan Agama Tasikmalaya,32,P03,JRC-CRT-32-060,PA Tasikmalaya,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PA-PA-0006,MCR-PA-PA-0006,Pengadilan Agama Garut,32,P03,JRC-CRT-32-061,PA Garut,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PA-PA-0023,MCR-PA-PA-0023,Pengadilan Agama Kota Tasikmalaya,32,P03,JRC-CRT-32-062,PA Kota Tasikmalaya,empirical_p1,MATCHED_MCR
+MA-COURT-MCR-PA-PA-0024,MCR-PA-PA-0024,Pengadilan Agama Kota Banjar,32,P03,JRC-CRT-32-063,PA Kota Banjar,empirical_p1,MATCHED_MCR
+UNMAPPED,,,,P04,SYNTHETIC_NO_ID,Mahkamah Agung RI,synthetic_p5,NEEDS_MANUAL_REVIEW
+MA-COURT-MCR-PU-PN-0049,MCR-PU-PN-0049,Pengadilan Negeri Bandung,32,P04,SYNTHETIC_NO_ID,PN Bandung,synthetic_p5,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0103,MCR-PU-PN-0103,Pengadilan Negeri Denpasar,51,P04,SYNTHETIC_NO_ID,PN Denpasar,synthetic_p5,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0116,MCR-PU-PN-0116,Pengadilan Negeri Jakarta Pusat,31,P04,SYNTHETIC_NO_ID,PN Jakarta Pusat,synthetic_p5,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0150,MCR-PU-PN-0150,Pengadilan Negeri Makassar,73,P04,SYNTHETIC_NO_ID,PN Makassar,synthetic_p5,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0023,MCR-PU-PN-0023,Pengadilan Negeri Medan,12,P04,SYNTHETIC_NO_ID,PN Medan,synthetic_p5,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0259,MCR-PU-PN-0259,Pengadilan Negeri Semarang,33,P04,SYNTHETIC_NO_ID,PN Semarang,synthetic_p5,MATCHED_MCR
+MA-COURT-MCR-PU-PN-0293,MCR-PU-PN-0293,Pengadilan Negeri Surabaya,35,P04,SYNTHETIC_NO_ID,PN Surabaya,synthetic_p5,MATCHED_MCR

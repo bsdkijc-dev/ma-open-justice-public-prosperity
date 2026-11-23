@@ -125,9 +125,9 @@
     "project_name": "Justice for the Last Mile",
     "short_code": "JLM",
     "research_focus": "Design and evaluation of practical interventions for underserved populations.",
-    "status": "NOT_STARTED",
+    "status": "IN_PROGRESS",
     "repo_url": "NONE",
-    "local_path": "NONE",
+    "local_path": "/working_dir/c_7b0e210aeefeafc8/justice-for-the-last-mile",
     "kaggle_dataset": "NONE",
     "license": "MIT",
     "domains_covered": [
@@ -136,7 +136,9 @@
       "D15",
       "D16"
     ],
-    "publication_classes_present": [],
-    "ownership_note": "Not yet initialized; no repository or datasets found in workspace, memory, or Drive."
+    "publication_classes_present": [
+      "P5"
+    ],
+    "ownership_note": "Initialized under Gate authorization (v0.1.0); P5 synthetic D14/D15 schemas & data; empirical field pilot pending."
   }
 ]

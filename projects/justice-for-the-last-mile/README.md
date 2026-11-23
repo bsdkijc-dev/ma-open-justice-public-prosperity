@@ -1,10 +1,8 @@
 # P06: Justice for the Last Mile (JLM)
 
-- **Status:** `NOT_STARTED`
-- **Research Focus:** Design and evaluation of practical interventions for underserved populations.
-- **Repository:** `NONE`
-- **Kaggle Dataset:** `NONE`
+- **Status:** `IN_PROGRESS` (Initialized)
+- **Local Path:** `/working_dir/c_7b0e210aeefeafc8/justice-for-the-last-mile`
 - **License:** MIT
 - **Domains Covered:** D13, D14, D15, D16
-- **Publication Classes Present:** None
-- **Ownership & Governance Note:** Not yet initialized; no repository or datasets found in workspace, memory, or Drive.
+- **Publication Classes Present:** P5 (Synthetic)
+- **Ownership & Governance Note:** Initialized under Gate authorization; D14/D15 schemas and `P5` synthetic records validated; empirical field pilot pending.

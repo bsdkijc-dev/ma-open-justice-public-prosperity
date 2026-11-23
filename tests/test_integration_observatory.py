@@ -91,5 +91,18 @@ class TestObservatoryIntegration(unittest.TestCase):
         self.assertIsNone(re.search(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}", text))
 
 
+
+    def test_crosswalks_notebooks_and_p05_review_exist(self):
+        self.assertTrue((ROOT / "shared/taxonomies/bps_province_district_crosswalk.csv").is_file())
+        self.assertTrue((ROOT / "shared/taxonomies/court_institution_crosswalk.csv").is_file())
+        self.assertTrue((ROOT / "reports/p05-legal-accessibility-review.md").is_file())
+        self.assertTrue((ROOT / "reports/empirical-modules-01-08-summary.md").is_file())
+        nbs = sorted((ROOT / "analysis/notebooks").glob("module_0[1-8]_*.ipynb"))
+        self.assertEqual(len(nbs), 8)
+        for nb in nbs:
+            obj = json.loads(nb.read_text(encoding="utf-8"))
+            self.assertEqual(obj["nbformat"], 4)
+
+
 if __name__ == "__main__":
     unittest.main()
