@@ -1,0 +1,8 @@
+{
+  "zero": "Verified quantitative value equal to 0",
+  "unknown": "Value exists in reality but is not known to the observer",
+  "unavailable": "Source record exists but is inaccessible or withheld",
+  "not_applicable": "Concept does not apply to this unit of observation",
+  "suppressed": "Withheld for privacy, confidentiality, or small-cell protection",
+  "not_collected": "Instrument or source did not collect this variable"
+}

@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ObservatoryProjectRegistryEntry",
+  "type": "object",
+  "required": [
+    "project_id",
+    "project_name",
+    "short_code",
+    "research_focus",
+    "status",
+    "repo_url",
+    "license",
+    "domains_covered",
+    "publication_classes_present",
+    "ownership_note"
+  ],
+  "properties": {
+    "project_id": {
+      "type": "string",
+      "pattern": "^P0[1-6]$"
+    },
+    "project_name": {
+      "type": "string"
+    },
+    "short_code": {
+      "type": "string"
+    },
+    "research_focus": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "ACTIVE_INSPECTED",
+        "IN_PROGRESS",
+        "BLOCKED",
+        "NOT_STARTED"
+      ]
+    },
+    "repo_url": {
+      "type": "string"
+    },
+    "local_path": {
+      "type": "string"
+    },
+    "kaggle_dataset": {
+      "type": "string"
+    },
+    "license": {
+      "type": "string"
+    },
+    "domains_covered": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^D(0[1-9]|1[0-6])$"
+      }
+    },
+    "publication_classes_present": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "P1",
+          "P2",
+          "P3",
+          "P4",
+          "P5"
+        ]
+      }
+    },
+    "ownership_note": {
+      "type": "string"
+    }
+  }
+}

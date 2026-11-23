@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PolicyIntelligenceRecommendation",
+  "type": "object",
+  "required": [
+    "recommendation_id",
+    "classification",
+    "problem_statement",
+    "evidence_summary",
+    "supporting_project_ids",
+    "supporting_source_ids",
+    "affected_population",
+    "legal_basis",
+    "institutional_competence",
+    "policy_option",
+    "implementation_requirements",
+    "resource_assumptions",
+    "risks",
+    "expected_outputs",
+    "expected_outcomes",
+    "evaluation_method",
+    "confidence_level",
+    "review_status"
+  ],
+  "properties": {
+    "recommendation_id": {
+      "type": "string"
+    },
+    "classification": {
+      "type": "string",
+      "enum": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5"
+      ]
+    },
+    "problem_statement": {
+      "type": "string"
+    },
+    "evidence_summary": {
+      "type": "string"
+    },
+    "supporting_project_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^P0[1-6]$"
+      },
+      "minItems": 1
+    },
+    "supporting_source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "affected_population": {
+      "type": "string"
+    },
+    "legal_basis": {
+      "type": "string"
+    },
+    "institutional_competence": {
+      "type": "string"
+    },
+    "policy_option": {
+      "type": "string"
+    },
+    "implementation_requirements": {
+      "type": "string"
+    },
+    "resource_assumptions": {
+      "type": "string"
+    },
+    "risks": {
+      "type": "string"
+    },
+    "expected_outputs": {
+      "type": "string"
+    },
+    "expected_outcomes": {
+      "type": "string"
+    },
+    "evaluation_method": {
+      "type": "string"
+    },
+    "confidence_level": {
+      "type": "string",
+      "enum": [
+        "LOW",
+        "MODERATE",
+        "HIGH"
+      ]
+    },
+    "review_status": {
+      "type": "string",
+      "enum": [
+        "DRAFT_PROPOSAL",
+        "PENDING_HUMAN_REVIEW",
+        "APPROVED_PROPOSAL"
+      ]
+    }
+  }
+}

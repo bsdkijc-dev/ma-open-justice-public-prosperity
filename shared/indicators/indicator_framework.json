@@ -1,0 +1,99 @@
+[
+  {
+    "indicator_id": "IND-TR-01",
+    "family": "TRANSPARENCY",
+    "name": "Public Judicial Information Availability",
+    "definition": "Share of courts/institutions publishing required annual/case metadata.",
+    "source_projects": [
+      "P01"
+    ],
+    "denominator": "total_audited_institutions",
+    "time_period": "2024-2025",
+    "missingness_rule": "unavailable if portal offline",
+    "comparability_validated": false
+  },
+  {
+    "indicator_id": "IND-TR-02",
+    "family": "TRANSPARENCY",
+    "name": "Decision Metadata Completeness",
+    "definition": "Share of decision records containing complete core metadata fields.",
+    "source_projects": [
+      "P01",
+      "P04"
+    ],
+    "denominator": "total_sampled_decisions",
+    "time_period": "2024-2026",
+    "missingness_rule": "not_collected if crawler paused",
+    "comparability_validated": false
+  },
+  {
+    "indicator_id": "IND-AC-01",
+    "family": "ACCESSIBILITY",
+    "name": "BPHN Accredited Legal Aid Density",
+    "definition": "Count of accredited OBH per province relative to rural/district demand.",
+    "source_projects": [
+      "P03"
+    ],
+    "denominator": "province_or_100k_pop",
+    "time_period": "2025",
+    "missingness_rule": "zero only if verified 0 OBH",
+    "comparability_validated": false
+  },
+  {
+    "indicator_id": "IND-AC-02",
+    "family": "ACCESSIBILITY",
+    "name": "Rural-Urban Digital Legal Access Gap",
+    "definition": "Percentage-point gap in internet access (age 5+) between urban and rural areas.",
+    "source_projects": [
+      "P03",
+      "P05"
+    ],
+    "denominator": "population_5plus",
+    "time_period": "2025",
+    "missingness_rule": "never impute missing provinces",
+    "comparability_validated": false
+  },
+  {
+    "indicator_id": "IND-AF-01",
+    "family": "AFFORDABILITY",
+    "name": "UMKM & Worker Dispute Direct Cost Burden",
+    "definition": "Official procedural + travel + legal assistance costs relative to monthly income/turnover.",
+    "source_projects": [
+      "P02",
+      "P03",
+      "P04"
+    ],
+    "denominator": "monthly_income_or_turnover",
+    "time_period": "2026",
+    "missingness_rule": "not_collected without survey",
+    "comparability_validated": false
+  },
+  {
+    "indicator_id": "IND-EF-01",
+    "family": "EFFECTIVENESS",
+    "name": "Dispute Resolution Duration (PHI & Civil)",
+    "definition": "Median calendar days from registration to final decision.",
+    "source_projects": [
+      "P01",
+      "P04"
+    ],
+    "denominator": "resolved_cases",
+    "time_period": "2024-2026",
+    "missingness_rule": "unavailable if registration_date missing",
+    "comparability_validated": false
+  },
+  {
+    "indicator_id": "IND-PV-01",
+    "family": "PUBLIC_VALUE",
+    "name": "Plain-Language Legal Comprehension Rate",
+    "definition": "Share of target audience respondents correctly answering comprehension items.",
+    "source_projects": [
+      "P05",
+      "P06"
+    ],
+    "denominator": "assessed_respondents",
+    "time_period": "2026-2030",
+    "missingness_rule": "not_collected until field pilot",
+    "comparability_validated": false
+  }
+]

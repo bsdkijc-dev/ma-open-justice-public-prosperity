@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PublicValueEvaluationRecord",
+  "type": "object",
+  "required": [
+    "evaluation_id",
+    "dimension",
+    "logic_tier",
+    "metric_name",
+    "value",
+    "observation_period",
+    "evidence_source",
+    "causal_claim_permitted"
+  ],
+  "properties": {
+    "evaluation_id": {
+      "type": "string"
+    },
+    "dimension": {
+      "type": "string",
+      "enum": [
+        "ACCESS",
+        "UNDERSTANDING",
+        "AFFORDABILITY",
+        "EFFECTIVENESS",
+        "TRUST_AND_ACCOUNTABILITY"
+      ]
+    },
+    "logic_tier": {
+      "type": "string",
+      "enum": [
+        "INPUT",
+        "ACTIVITY",
+        "OUTPUT",
+        "OUTCOME",
+        "IMPACT"
+      ]
+    },
+    "metric_name": {
+      "type": "string"
+    },
+    "value": {
+      "type": [
+        "number",
+        "string",
+        "null"
+      ]
+    },
+    "observation_period": {
+      "type": "string"
+    },
+    "evidence_source": {
+      "type": "string"
+    },
+    "causal_claim_permitted": {
+      "type": "boolean"
+    }
+  }
+}

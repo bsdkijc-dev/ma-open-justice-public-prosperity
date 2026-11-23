@@ -1,0 +1,13 @@
+record_id,domain_id,source_project,publication_class,data_origin,observation_period,geographic_level,province_code,indicator_code,indicator_value,missing_value_status,unit,source_reference,validation_status
+SYN-INT-0001,D01,P01,P5,synthetic,2025,province,32,IND-TR-01,84.5,present,percent,SYNTHETIC_IOJO_SAMPLE,SYNTHETIC
+SYN-INT-0002,D02,P01,P5,synthetic,2025,province,52,VAR-D02-001,91.2,present,percent,SYNTHETIC_IOJO_SAMPLE,SYNTHETIC
+SYN-INT-0003,D03,P04,P5,synthetic,2025,national,00,IND-TR-02,,unavailable,percent,SYNTHETIC_ILJO_CRAWLER_PAUSED,SYNTHETIC
+SYN-INT-0004,D06,P03,P5,synthetic,2025,province,52,IND-AC-02,14.8,present,percentage_points,SYNTHETIC_JRC_ICT_SAMPLE,SYNTHETIC
+SYN-INT-0005,D07,P03,P5,synthetic,2025,province,32,IND-AC-01,35.0,present,count,SYNTHETIC_JRC_OBH_SAMPLE,SYNTHETIC
+SYN-INT-0006,D08,P02,P5,synthetic,2026,province,32,IND-AF-01,1250000.0,present,IDR,SYNTHETIC_UMKM_COST_SAMPLE,SYNTHETIC
+SYN-INT-0007,D09,P05,P5,synthetic,2026,national,00,VAR-D09-001,10.0,present,count,SYNTHETIC_PLKO_GUIDES,SYNTHETIC
+SYN-INT-0008,D11,P04,P5,synthetic,2025,court,31,IND-EF-01,49.0,present,days,SYNTHETIC_ILJO_PHI_SAMPLE,SYNTHETIC
+SYN-INT-0009,D13,P03,P5,synthetic,2025,province,52,VAR-D13-001,,suppressed,count,SYNTHETIC_SMALL_CELL_PROTECTION,SYNTHETIC
+SYN-INT-0010,D14,P06,P5,synthetic,2027,community,52,VAR-D14-001,,not_collected,count,SYNTHETIC_P06_NOT_STARTED,SYNTHETIC
+SYN-INT-0011,D12,P03,P5,synthetic,2025,province,31,VAR-D12-001,,not_applicable,score,SYNTHETIC_URBAN_KELURAHAN_NA,SYNTHETIC
+SYN-INT-0012,D07,P03,P5,synthetic,2025,district,52,IND-AC-01,0.0,zero,count,SYNTHETIC_VERIFIED_ZERO_OBH,SYNTHETIC

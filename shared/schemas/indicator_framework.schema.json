@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IntegratedIndicatorFramework",
+  "type": "object",
+  "required": [
+    "indicator_id",
+    "family",
+    "name",
+    "definition",
+    "source_projects",
+    "denominator",
+    "time_period",
+    "missingness_rule",
+    "comparability_validated"
+  ],
+  "properties": {
+    "indicator_id": {
+      "type": "string"
+    },
+    "family": {
+      "type": "string",
+      "enum": [
+        "TRANSPARENCY",
+        "ACCESSIBILITY",
+        "AFFORDABILITY",
+        "EFFECTIVENESS",
+        "PUBLIC_VALUE"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "definition": {
+      "type": "string"
+    },
+    "source_projects": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^P0[1-6]$"
+      }
+    },
+    "denominator": {
+      "type": "string"
+    },
+    "time_period": {
+      "type": "string"
+    },
+    "missingness_rule": {
+      "type": "string"
+    },
+    "comparability_validated": {
+      "type": "boolean"
+    }
+  }
+}

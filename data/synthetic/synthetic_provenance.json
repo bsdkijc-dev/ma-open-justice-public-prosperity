@@ -1,0 +1,13 @@
+[
+  {
+    "provenance_id": "PROV-SYN-001",
+    "source_project": "P01",
+    "source_institution": "Independent Synthetic Generator",
+    "original_source_reference": "SYNTHETIC_IOJO_SAMPLE",
+    "observation_period": "2025",
+    "geographic_coverage": "Province 32, 52 (Synthetic)",
+    "publication_class": "P5",
+    "reuse_conditions": "P5 synthetic test data only; never mix with empirical P1 tables.",
+    "validation_status": "SYNTHETIC"
+  }
+]

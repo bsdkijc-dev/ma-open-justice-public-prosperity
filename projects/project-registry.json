@@ -1,0 +1,142 @@
+[
+  {
+    "project_id": "P01",
+    "project_name": "Indonesia Open Justice Observatory",
+    "short_code": "IOJO",
+    "research_focus": "Transparency, accessibility, efficiency, accountability, and verifiability of public judicial information.",
+    "status": "ACTIVE_INSPECTED",
+    "repo_url": "bsdkijc-dev/indonesia-open-justice-observatory",
+    "local_path": "/working_dir/c_9f0ef59312a8a465/indonesia-open-justice-observatory",
+    "kaggle_dataset": "judicialcollege/indonesia-open-justice-observatory-2024-2025",
+    "license": "MIT",
+    "domains_covered": [
+      "D01",
+      "D02",
+      "D03",
+      "D04",
+      "D05",
+      "D16"
+    ],
+    "publication_classes_present": [
+      "P1",
+      "P3",
+      "P5"
+    ],
+    "ownership_note": "Independent project; MIT code/schemas; source data from Mahkamah Agung RI Laptah 2024-2025."
+  },
+  {
+    "project_id": "P02",
+    "project_name": "Justice for UMKM Observatory",
+    "short_code": "UMKM",
+    "research_focus": "How access to justice affects legal security, resilience, and economic prospects of micro and small enterprises.",
+    "status": "ACTIVE_INSPECTED",
+    "repo_url": "git@github.com:bsdkijc-dev/justice-for-umkm-observatory.git",
+    "local_path": "/working_dir/c_2e8d03db2e69f7be/justice-for-umkm-observatory",
+    "kaggle_dataset": "judicialcollege/justice-for-umkm-synthetic-pilot-v1",
+    "license": "MIT",
+    "domains_covered": [
+      "D04",
+      "D05",
+      "D08",
+      "D09",
+      "D10",
+      "D15",
+      "D16"
+    ],
+    "publication_classes_present": [
+      "P1",
+      "P5"
+    ],
+    "ownership_note": "Independent project led by Cecep Mustafa, Ph.D.; MIT code; empirical DS05 (278 rows) & DS09 (11 rows) + P5 synthetic."
+  },
+  {
+    "project_id": "P03",
+    "project_name": "Justice for Rural Communities Observatory",
+    "short_code": "JRC",
+    "research_focus": "Geographic, economic, social, and institutional barriers to justice in rural and remote communities.",
+    "status": "ACTIVE_INSPECTED",
+    "repo_url": "git@github.com:bsdkijc-dev/justice-for-rural-communities-observatory.git",
+    "local_path": "/working_dir/c_83187fa987a40d2e/justice-for-rural-communities-observatory",
+    "kaggle_dataset": "judicialcollege/justice-for-rural-communities-observatory-pilot",
+    "license": "MIT",
+    "domains_covered": [
+      "D01",
+      "D05",
+      "D06",
+      "D07",
+      "D08",
+      "D09",
+      "D12",
+      "D13",
+      "D16"
+    ],
+    "publication_classes_present": [
+      "P1",
+      "P5"
+    ],
+    "ownership_note": "Independent project; 9 P1 files (BPS, Kemendesa, DS02 courts, DS05 BPHN OBH) for pilot provinces NTB (52) & Jawa Barat (32)."
+  },
+  {
+    "project_id": "P04",
+    "project_name": "Indonesia Labour Justice Observatory",
+    "short_code": "ILJO",
+    "research_focus": "Workers' access to justice, industrial relations disputes, procedural barriers, remedies, and enforcement.",
+    "status": "ACTIVE_INSPECTED",
+    "repo_url": "git@github.com:bsdkijc-dev/indonesia-labour-justice-observatory.git",
+    "local_path": "/working_dir/c_da47cce57e1f6832/indonesia-labour-justice-observatory",
+    "kaggle_dataset": "judicialcollege/iljo-phi-synthetic-pilot-v1",
+    "license": "MIT",
+    "domains_covered": [
+      "D03",
+      "D05",
+      "D11",
+      "D16"
+    ],
+    "publication_classes_present": [
+      "P5"
+    ],
+    "ownership_note": "Independent project; 150-row P5 synthetic PHI pilot; live putusan3 crawling paused due to HTTP retry limits."
+  },
+  {
+    "project_id": "P05",
+    "project_name": "People's Legal Knowledge Observatory",
+    "short_code": "PLKO",
+    "research_focus": "Availability, comprehensibility, reliability, and practical usefulness of public legal information.",
+    "status": "ACTIVE_INSPECTED",
+    "repo_url": "git@github.com:bsdkijc-dev/peoples-legal-knowledge-observatory.git",
+    "local_path": "/working_dir/c_63d12d3880bbb2c8/peoples-legal-knowledge-observatory",
+    "kaggle_dataset": "judicialcollege/peoples-legal-knowledge-observatory",
+    "license": "MIT",
+    "domains_covered": [
+      "D04",
+      "D09",
+      "D13",
+      "D15",
+      "D16"
+    ],
+    "publication_classes_present": [
+      "P3",
+      "P5"
+    ],
+    "ownership_note": "Independent project; Datasets 01-12 in data/interim/ remain PENDING_HUMAN_REVIEW until legal & accessibility sign-off."
+  },
+  {
+    "project_id": "P06",
+    "project_name": "Justice for the Last Mile",
+    "short_code": "JLM",
+    "research_focus": "Design and evaluation of practical interventions for underserved populations.",
+    "status": "NOT_STARTED",
+    "repo_url": "NONE",
+    "local_path": "NONE",
+    "kaggle_dataset": "NONE",
+    "license": "MIT",
+    "domains_covered": [
+      "D13",
+      "D14",
+      "D15",
+      "D16"
+    ],
+    "publication_classes_present": [],
+    "ownership_note": "Not yet initialized; no repository or datasets found in workspace, memory, or Drive."
+  }
+]

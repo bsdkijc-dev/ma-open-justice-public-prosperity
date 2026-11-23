@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IntegratedObservatoryRecord",
+  "type": "object",
+  "required": [
+    "record_id",
+    "domain_id",
+    "source_project",
+    "publication_class",
+    "data_origin",
+    "observation_period",
+    "geographic_level",
+    "province_code",
+    "indicator_code",
+    "indicator_value",
+    "missing_value_status",
+    "unit",
+    "source_reference",
+    "validation_status"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string",
+      "minLength": 5
+    },
+    "domain_id": {
+      "type": "string",
+      "pattern": "^D(0[1-9]|1[0-6])$"
+    },
+    "source_project": {
+      "type": "string",
+      "pattern": "^P0[1-6]$"
+    },
+    "publication_class": {
+      "type": "string",
+      "enum": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5"
+      ]
+    },
+    "data_origin": {
+      "type": "string",
+      "enum": [
+        "empirical",
+        "synthetic"
+      ]
+    },
+    "observation_period": {
+      "type": "string"
+    },
+    "geographic_level": {
+      "type": "string",
+      "enum": [
+        "national",
+        "province",
+        "district",
+        "court",
+        "village",
+        "community"
+      ]
+    },
+    "province_code": {
+      "type": "string"
+    },
+    "indicator_code": {
+      "type": "string"
+    },
+    "indicator_value": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "missing_value_status": {
+      "type": "string",
+      "enum": [
+        "present",
+        "zero",
+        "unknown",
+        "unavailable",
+        "not_applicable",
+        "suppressed",
+        "not_collected"
+      ]
+    },
+    "unit": {
+      "type": "string"
+    },
+    "source_reference": {
+      "type": "string"
+    },
+    "validation_status": {
+      "type": "string",
+      "enum": [
+        "VERIFIED",
+        "SYNTHETIC",
+        "PENDING_HUMAN_REVIEW",
+        "UNVERIFIED"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

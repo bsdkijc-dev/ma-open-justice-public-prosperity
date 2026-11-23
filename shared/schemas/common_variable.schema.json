@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CommonDataDictionaryVariable",
+  "type": "object",
+  "required": [
+    "variable_id",
+    "variable_name",
+    "domain_id",
+    "definition",
+    "unit",
+    "data_type",
+    "allowed_values",
+    "numerator",
+    "denominator",
+    "observation_period",
+    "geographic_level",
+    "source_reference",
+    "collection_method",
+    "transformation_method",
+    "missing_data_rule",
+    "quality_status",
+    "limitations",
+    "project_owner",
+    "approval_status"
+  ],
+  "properties": {
+    "variable_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "variable_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "domain_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "definition": {
+      "type": "string",
+      "minLength": 1
+    },
+    "unit": {
+      "type": "string",
+      "minLength": 1
+    },
+    "data_type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "allowed_values": {
+      "type": "string",
+      "minLength": 1
+    },
+    "numerator": {
+      "type": "string",
+      "minLength": 1
+    },
+    "denominator": {
+      "type": "string",
+      "minLength": 1
+    },
+    "observation_period": {
+      "type": "string",
+      "minLength": 1
+    },
+    "geographic_level": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_reference": {
+      "type": "string",
+      "minLength": 1
+    },
+    "collection_method": {
+      "type": "string",
+      "minLength": 1
+    },
+    "transformation_method": {
+      "type": "string",
+      "minLength": 1
+    },
+    "missing_data_rule": {
+      "type": "string",
+      "minLength": 1
+    },
+    "quality_status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "limitations": {
+      "type": "string",
+      "minLength": 1
+    },
+    "project_owner": {
+      "type": "string",
+      "minLength": 1
+    },
+    "approval_status": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

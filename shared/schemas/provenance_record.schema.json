@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SourceProvenanceRecord",
+  "type": "object",
+  "required": [
+    "provenance_id",
+    "source_project",
+    "source_institution",
+    "original_source_reference",
+    "observation_period",
+    "geographic_coverage",
+    "publication_class",
+    "reuse_conditions",
+    "validation_status"
+  ],
+  "properties": {
+    "provenance_id": {
+      "type": "string"
+    },
+    "source_project": {
+      "type": "string",
+      "pattern": "^P0[1-6]$"
+    },
+    "source_institution": {
+      "type": "string"
+    },
+    "original_source_reference": {
+      "type": "string"
+    },
+    "observation_period": {
+      "type": "string"
+    },
+    "geographic_coverage": {
+      "type": "string"
+    },
+    "publication_class": {
+      "type": "string",
+      "enum": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5"
+      ]
+    },
+    "reuse_conditions": {
+      "type": "string"
+    },
+    "validation_status": {
+      "type": "string"
+    }
+  }
+}

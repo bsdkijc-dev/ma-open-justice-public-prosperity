@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this integration architecture or schemas, please cite this repository."
+title: "MA Open Justice & Public Prosperity Integration Observatory"
+version: 1.0.0
+date-released: 2026-11-23
+license: MIT
+authors:
+  - family-names: "Mustafa"
+    given-names: "Cecep"
+keywords:
+  - open justice
+  - access to justice
+  - Indonesia
+  - data governance
+  - public value

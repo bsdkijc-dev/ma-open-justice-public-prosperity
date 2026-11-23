@@ -1,0 +1,12 @@
+[
+  {
+    "evaluation_id": "PV-SYN-001",
+    "dimension": "UNDERSTANDING",
+    "logic_tier": "OUTPUT",
+    "metric_name": "Plain-language legal guides drafted (synthetic)",
+    "value": 10,
+    "observation_period": "2026",
+    "evidence_source": "SYN-INT-0007",
+    "causal_claim_permitted": false
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "recommendation_id": "POL-SYN-001",
+    "classification": "P3",
+    "problem_statement": "Synthetic test: Disconnected court metadata (P01) and rural legal-aid directories (P03) hinder targeting of underserved districts.",
+    "evidence_summary": "Synthetic integration test across D01, D06, and D07.",
+    "supporting_project_ids": [
+      "P01",
+      "P03"
+    ],
+    "supporting_source_ids": [
+      "SYN-INT-0001",
+      "SYN-INT-0005"
+    ],
+    "affected_population": "Rural communities in pilot provinces",
+    "legal_basis": "UU No. 16 Tahun 2011 tentang Bantuan Hukum; UU No. 14 Tahun 2008 (KIP)",
+    "institutional_competence": "BPHN (Kemenkumham) and Mahkamah Agung RI (advisory proposal only; no institutional representation)",
+    "policy_option": "Publish standardized BPS-coded court and OBH interoperability tables.",
+    "implementation_requirements": "Human review Gate 4 & Gate 6; verified court address reconciliation.",
+    "resource_assumptions": "Low-cost open-source ETL using existing public directories.",
+    "risks": "Stale legacy addresses (8 pending in P03 DS02).",
+    "expected_outputs": "Reconciled P1 court-OBH geographic crosswalk.",
+    "expected_outcomes": "Improved identification of legal-aid deserts (proposition to test).",
+    "evaluation_method": "Coverage audit against Kemendesa Indeks Desa 2025.",
+    "confidence_level": "LOW",
+    "review_status": "PENDING_HUMAN_REVIEW"
+  }
+]
