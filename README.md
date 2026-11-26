@@ -1,4 +1,18 @@
-# MA Open Justice & Public Prosperity Integration Observatory (v1.0)
+<div align="center">
+
+<img src="assets/logo.svg" alt="MA Open Justice & Public Prosperity Integration Observatory Logo" width="140">
+
+# MA Open Justice & Public Prosperity Integration Observatory
+
+### From open data to public trust — interoperability and metadata layer across six access-to-justice observatories.
+
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat)](LICENSE) ![Stack](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat&logo=python&logoColor=white) [![CI](https://github.com/bsdkijc-dev/ma-open-justice-public-prosperity/actions/workflows/ci.yml/badge.svg)](https://github.com/bsdkijc-dev/ma-open-justice-public-prosperity/actions/workflows/ci.yml)
+
+[Documentation](architecture/) · [Repository](https://github.com/bsdkijc-dev/ma-open-justice-public-prosperity)
+
+</div>
+
+---
 
 **Tagline:** From Open Data to Public Trust. From Public Trust to Public Value.  
 **Program Period:** 2027–2030  
@@ -37,3 +51,13 @@ source .venv/bin/activate
 pip install -r requirements.txt
 python3 -m unittest discover -s tests -v
 ```
+
+---
+
+<div align="center">
+
+**MA Open Justice & Public Prosperity Integration Observatory**
+
+[github.com/bsdkijc-dev/ma-open-justice-public-prosperity](https://github.com/bsdkijc-dev/ma-open-justice-public-prosperity)
+
+</div>
